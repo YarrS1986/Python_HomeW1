@@ -2,9 +2,7 @@
 # Для N = 5: 1, -3, 9, -27, 81 и т.д.
 
 N = int(input("Введи число N = "))
-array = range(N)
-
-for i in array:
+for i in range(N):
     if i % 2:
         print(-3 ** i)
     else:
